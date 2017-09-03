@@ -5,11 +5,37 @@
 [![License](https://img.shields.io/cocoapods/l/VerticalAlignmentLabel.svg?style=flat)](http://cocoapods.org/pods/VerticalAlignmentLabel)
 [![Platform](https://img.shields.io/cocoapods/p/VerticalAlignmentLabel.svg?style=flat)](http://cocoapods.org/pods/VerticalAlignmentLabel)
 
+This is a simple library that allows vertical alignment of UILabel.
+
+![screenshots](./Images/screenshot1.png)
+
+## Usage
+
+1. Set UILabel to Storyboard or XIB.
+2. Change `Class` and `Module` of `Custom Class` in Identity Inspector to `VerticalAlignmentLabel`.
+  ![screenshots](./Images/screenshot2.png)
+
+3. Select property of `Vertical Alignment Label` in Attributes Inspector.
+  ![screenshots](./Images/screenshot3.png)
+
+### Programmatically
+
+```swift
+// var label: VerticalAlignmentLabel
+
+label.verticalTextAlignment = .top
+label.verticalTextAlignment = .center
+label.verticalTextAlignment = .bottom
+```
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+- Swift 3.0 or later
+- iOS 8.0 or later
 
 ## Installation
 
@@ -22,7 +48,7 @@ pod "VerticalAlignmentLabel"
 
 ## Author
 
-YukiKuroda, yuki.kuroda@supership.jp
+darquro, yuki.kuro96@gmail.com
 
 ## License
 
