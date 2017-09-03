@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'VerticalAlignmentLabel'
   s.version          = '0.1.0'
-  s.summary          = 'This is a simple library that allows vertical alignment of UILabel.'
+  s.summary          = 'Vertical alignment of UILabel.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -22,7 +22,9 @@ This is a simple library that allows vertical alignment of UILabel.
                        DESC
 
   s.homepage         = 'https://github.com/darquro/VerticalAlignmentLabel'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots      = 'https://raw.githubusercontent.com/darquro/VerticalAlignmentLabel/master/Images/screenshot1.png',
+                       'https://raw.githubusercontent.com/darquro/VerticalAlignmentLabel/master/Images/screenshot2.png',
+                       'https://raw.githubusercontent.com/darquro/VerticalAlignmentLabel/master/Images/screenshot3.png',
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'darquro' => 'yuki.kuro96@gmail.com' }
   s.source           = { :git => 'https://github.com/darquro/VerticalAlignmentLabel.git', :tag => s.version.to_s }
