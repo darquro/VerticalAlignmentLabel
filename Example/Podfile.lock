@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
   Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
-  VerticalAlignmentLabel: 81434b066ba4ce07a20aa561da232c350a6ee8aa
+  VerticalAlignmentLabel: b4557f1ad489ce7efbe265383eba2eda21877fc1
 
 PODFILE CHECKSUM: 8d15ab2b05ec947894bde481a688c45a7c0d8c2c
 
