@@ -7,17 +7,32 @@
 //
 
 import UIKit
+import VerticalAlignmentLabel
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var label: VerticalAlignmentLabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func changedVerticalAlignSegment(_ sender: UISegmentedControl) {
+        switch sender.selectedSegmentIndex {
+        case 0:
+            label.verticalTextAlignment = .top
+        case 1:
+            label.verticalTextAlignment = .center
+        case 2:
+            label.verticalTextAlignment = .bottom
+        default:
+            break
+        }
     }
 
 }

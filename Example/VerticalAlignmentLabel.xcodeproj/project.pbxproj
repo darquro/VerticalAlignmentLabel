@@ -15,6 +15,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		B030B87B1F5C4BAE006D79A4 /* VerticalAlignmentLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B030B87A1F5C4BAE006D79A4 /* VerticalAlignmentLabel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,8 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03D422A681E7D86B438F4C67 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		1A50894DF816413501002DDF /* VerticalAlignmentLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = VerticalAlignmentLabel.podspec; path = ../VerticalAlignmentLabel.podspec; sourceTree = "<group>"; };
+		03D422A681E7D86B438F4C67 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1A50894DF816413501002DDF /* VerticalAlignmentLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VerticalAlignmentLabel.podspec; path = ../VerticalAlignmentLabel.podspec; sourceTree = "<group>"; };
 		262D962C973D55AE8917D4FB /* Pods-VerticalAlignmentLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VerticalAlignmentLabel_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VerticalAlignmentLabel_Tests/Pods-VerticalAlignmentLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		39D31B141FB6FD55CE0DF10F /* Pods-VerticalAlignmentLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VerticalAlignmentLabel_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VerticalAlignmentLabel_Tests/Pods-VerticalAlignmentLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* VerticalAlignmentLabel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerticalAlignmentLabel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,8 +45,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		78A97C1E2CE67D3B540967C6 /* Pods_VerticalAlignmentLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VerticalAlignmentLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79369B1BA045FF568DDFC99E /* Pods-VerticalAlignmentLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VerticalAlignmentLabel_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-VerticalAlignmentLabel_Example/Pods-VerticalAlignmentLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
-		870C606E71257CFADD0A0962 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		870C606E71257CFADD0A0962 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9CD077FAA5A4265C18E221EB /* Pods-VerticalAlignmentLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VerticalAlignmentLabel_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VerticalAlignmentLabel_Example/Pods-VerticalAlignmentLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B030B87A1F5C4BAE006D79A4 /* VerticalAlignmentLabel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VerticalAlignmentLabel.framework; path = "../../../../Library/Developer/Xcode/DerivedData/VerticalAlignmentLabel-epuuoezyinbimiceonoghzxxnwgt/Build/Products/Debug-iphonesimulator/VerticalAlignmentLabel/VerticalAlignmentLabel.framework"; sourceTree = "<group>"; };
 		B1F86CF7AB7204927FEA553C /* Pods_VerticalAlignmentLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VerticalAlignmentLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B030B87B1F5C4BAE006D79A4 /* VerticalAlignmentLabel.framework in Frameworks */,
 				3BF75BA05DED488E910D65FC /* Pods_VerticalAlignmentLabel_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +156,7 @@
 		A756A2C5AACE40154E29CAF9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B030B87A1F5C4BAE006D79A4 /* VerticalAlignmentLabel.framework */,
 				B1F86CF7AB7204927FEA553C /* Pods_VerticalAlignmentLabel_Example.framework */,
 				78A97C1E2CE67D3B540967C6 /* Pods_VerticalAlignmentLabel_Tests.framework */,
 			);
@@ -215,6 +219,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = YZ2PUYUY97;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -496,6 +501,7 @@
 			baseConfigurationReference = 9CD077FAA5A4265C18E221EB /* Pods-VerticalAlignmentLabel_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YZ2PUYUY97;
 				INFOPLIST_FILE = VerticalAlignmentLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -510,6 +516,7 @@
 			baseConfigurationReference = 79369B1BA045FF568DDFC99E /* Pods-VerticalAlignmentLabel_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YZ2PUYUY97;
 				INFOPLIST_FILE = VerticalAlignmentLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
