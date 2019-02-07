@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/VerticalAlignmentLabel.svg?style=flat)](http://cocoapods.org/pods/VerticalAlignmentLabel)
 [![Platform](https://img.shields.io/cocoapods/p/VerticalAlignmentLabel.svg?style=flat)](http://cocoapods.org/pods/VerticalAlignmentLabel)
 
-This is a simple library that allows vertical alignment of UILabel.
+This is a simple library enables vertical alignment of UILabel.
 
 ![screenshots](./Images/screenshot1.png)
 
